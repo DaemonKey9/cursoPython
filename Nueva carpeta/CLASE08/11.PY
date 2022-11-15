@@ -14,7 +14,7 @@ for amigo in range(0,len(arrayAmigos)):
     print(saludo(arrayAmigos[amigo]))
 
 ## crear una funcion que me retorne los n numeros de fibonacci
-1 1 2 3 5 8 13 
+#1 1 2 3 5 8 13 
 x=0
 y=1
 z=0
@@ -32,9 +32,9 @@ for i in range(0,n):
     x=z
 print("")
 ##crear una funcion que me retorne el factoeial de un numero n
- 5=5*4*3*2*1
- 7=7*6*5*4*3*2*1
- numero=int(input('numero: '))
+ #5=5*4*3*2*1
+ #7=7*6*5*4*3*2*1
+numero=int(input('numero: '))
 factorial=1
 if numero !=0:
     for i in range(1,numero+1):
@@ -42,8 +42,8 @@ if numero !=0:
         
 print("factorial:",factorial)
 ##crear una funcion que me diga si una palabra es palindromo
-ada
-ala
+#ada
+#ala
 def palindromo(cadena):
     izquierda = 0
     derecha = len(cadena)-1
@@ -59,3 +59,5 @@ def palindromo(cadena):
 
 #print(palindromo('ana'))
 #print(palindromo('oso'))
+#print(palindromo('ada'))
+#print(palindromo('ala'))
