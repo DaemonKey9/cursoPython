@@ -8,7 +8,13 @@
 # list.insert(len(list),'jamely')
 # print(list)
 
-list=[]
-for i in range(11):
-    list.append(1)
-print(list)
+# list=[]
+# for i in range(11):
+#     list.append(1)
+# print(list)
+
+vocalesUno=['a','e']
+vocalesDos=['i','o','u']
+vocalesUno.extend(vocalesDos)
+vocalesUno[3]='00'
+print(vocalesUno)

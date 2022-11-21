@@ -42,10 +42,10 @@ print('la divicion es: ', divicion)
 
 
 
-#def mensaje(nombre,apellido,accion):
- #   if accion == 'saludo':
-  #      mensaje='hola',nombre,apellido,'como estas'
-   # elif accion=='despedida':
-    #    mensaje='adios',apellido,nombre
-    #return mensaje
-#print(mensaje('mozar','castillo','saludo'))
+def mensaje(nombre,apellido,accion):
+    if accion == 'saludo':
+        mensaje='hola',nombre,apellido,'como estas'
+    elif accion=='despedida':
+        mensaje='adios',apellido,nombre
+    return mensaje
+print(mensaje('mozar','castillo','saludo'))
