@@ -3,7 +3,7 @@
 -  resta
 *  multiplicacion
 /  division
-%  modul                o
+%  modulo                o
 ** potencia
 
 ##operadores relacionales

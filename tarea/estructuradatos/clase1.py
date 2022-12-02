@@ -21,10 +21,6 @@ arrayD=[1,2,3,3,4,6,20,5,8,4,8]
 print(numPar(arrayD))
 
       
-    
-  
-
-
 ##escriuba una funcion que acepte una lista y genere otra eliminando los duplicados textos
 
 def delDuplicate(array):
